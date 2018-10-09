@@ -51,6 +51,7 @@ int main() {
     
     inputArray(a, n);
     printArray(a, n);
+    cout << "Min value of the array: " <<  findMin(a, n);
     deallocateArray(a);
 }
 
